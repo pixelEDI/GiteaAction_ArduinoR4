@@ -1,0 +1,17 @@
+name: Compile Sketch Gitea
+
+on:
+  - push
+
+jobs:
+  compile-sketch:
+    runs-on: ubuntu-latest
+
+    steps:
+      # This step makes the contents of the repository available to the workflow
+      - name: Checkout repository
+        uses: actions/checkout@v4   
+         
+      - name: Compile Arduino sketch
+        run: bash ci/compile-arduino.sh
+        
