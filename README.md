@@ -1,5 +1,6 @@
 ## Gitea Action
 
+![example workflow](https://mygit.ipv64.net/pixeledi/GiteaAction_ArduinoR4/actions/workflows/build.yaml/badge.svg)
 
 ```mermaid
 graph TD
