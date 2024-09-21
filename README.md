@@ -10,6 +10,7 @@ Im Vorfeld wurde ein Gitea Runner installiert.
 curl -L https://dl.gitea.com/act_runner/0.2.10/act_runner-0.2.10-linux-amd64 -o act_runner
 chmod +x act_runner
 ./act_runner --version
+./act_runner generate-config > config.yaml
 ```
 
 docker-compose.yaml
